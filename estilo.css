@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.limitaLargura{
+
+    width: 100%;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;    
+           
+}
+
+.container{
+
+    width: 100vw;
+    background-color: #DC0000;
+    position: fixed;
+}
+
+.topo, .informações{
+    
+    width: 80vw;
+    margin: 0 auto;     
+       
+}
+
+.topo{
+
+    height: 50px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+a{
+    color: #FFF6C3;    
+    font-size: 16px;
+    font-family: Oswald;
+    font-weight: bold;    
+    text-decoration: none;
+
+}
+
+img{
+    width: 42px;
+}
+
+.bannerPrincipal{
+    height: 100vh;
+    background-image: url("./assets/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.bannerPrincipal h1{
+
+    font-size: 50px;
+    font-family: Fraunces;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+
+.informações, .contatos{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+}
+
+.horarios{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+
+.informações{
+
+    justify-content: space-around;    
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.contatos{
+    justify-content: space-around;
+}
+
+
+.informações h2{
+    font-family: Pacifico;
+        
+    color: #c4a47c;
+    font-size: 30px;
+}
+
+.informações p{
+
+    width: 70vw;
+    font-family: Lato;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+ 
+
+
+}
+
+.subBanner{
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+
+}
+
+.subBanner p, .contatos h2, .boxContato{
+
+    width: 350px;
+    
+    text-align: center;
+    background-color: #DC0000;
+    color: #FFF6C3;
+    border-radius: 12px;
+    padding: 12px;   
+    font-size: 16px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 50;
+
+}
+
+
+
+
+.sub01{
+    background-image: url("./assets/parallax-imagem2.jpg");
+    
+}
+
+.sub02{
+    background-image: url("./assets/parallax-imagem3.jpg");
+    
+}
+
+.sub03{
+    background-image: url("./assets/parallax-imagem4.png");
+    
+}
+
+.contatos{
+
+    background-image: url("./assets/parallax-imagem5.png");
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+
+
+}
+
+.horarios{
+    background-image: url("./assets/cafeteria.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+
+.horarios h2{
+    
+    text-align: center;
+    margin: 50px 0;
+    
+
+    color: white; 
+    font-size: 20px;
+    font-family: Oswald;
+    letter-spacing: 10px;
+
+
+}
+
+
+
+.rodape{
+
+    text-align: center;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    
+    
+    
+   
+    font-family: Lato; 
+    font-size: smaller;
+    color: #fff;
+    background-color: #850000;  
+
+
+
+
+}
+
+.meuNome{
+color: #c4a47c;
+font-size: medium;
+font-family: Lato; 
+font-style: bold;
+}
+
+
