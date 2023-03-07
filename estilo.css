@@ -97,7 +97,7 @@ img{
 }
 
 
-.informações, .contatos, .transparencia{
+.informações, .contatos, .transparencia, .divVideo{
     display: flex;
     flex-direction: column;
     
@@ -115,7 +115,7 @@ img{
 }
 
 
-.informações, .transparencia{
+.informações, .transparencia, .divVideo{
 
     justify-content: space-around;    
     margin-top: 20px;
@@ -129,7 +129,9 @@ img{
 }
 
 
-.informações h2, .transparencia h2{
+
+
+.informações h2, .transparencia h2, .divVideo h2{
     font-family: Oswald;
         
     color: #df251a;
@@ -196,7 +198,10 @@ img{
 }
 
 
-
+.sub00{
+    background-image: url("./assets/parallax-imagem0.png");
+    
+}
 
 .sub01{
     background-image: url("./assets/parallax-imagem2.jpg");
