@@ -48,6 +48,7 @@ a{
     font-family: Oswald;
     font-weight: bold;    
     text-decoration: none;
+    padding: 10px;
 
 }
 
@@ -115,17 +116,25 @@ img{
 }
 
 
-.informações, .transparencia, .divVideo{
+.informações, .transparencia{
 
     justify-content: space-around;    
-    margin-top: 20px;
-    margin-bottom: 10px;
+   
 
 
 }
 
 .contatos{
     justify-content: space-around;
+}
+
+.divVideo{
+
+    justify-content: space-between;
+    padding-bottom: 10px;    
+   
+
+
 }
 
 
