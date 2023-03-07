@@ -16,7 +16,7 @@ body{
 .container{
 
     width: 100vw;
-    background-color: #DC0000;
+    background-color: #fff;
     position: fixed;
 }
 
@@ -30,6 +30,7 @@ body{
 .topo{
 
     height: 50px;
+    
 
 }
 
@@ -42,7 +43,7 @@ body{
 }
 
 a{
-    color: #FFF6C3;    
+    color: #271a72;    
     font-size: 16px;
     font-family: Oswald;
     font-weight: bold;    
@@ -69,6 +70,21 @@ img{
    
 }
 
+.bannerPrincipalTransparencia{
+    height: 50vh;
+    background-image: url("./assets/parallax-imagem1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
 .bannerPrincipal h1{
 
     font-size: 50px;
@@ -81,7 +97,7 @@ img{
 }
 
 
-.informações, .contatos{
+.informações, .contatos, .transparencia{
     display: flex;
     flex-direction: column;
     
@@ -99,7 +115,7 @@ img{
 }
 
 
-.informações{
+.informações, .transparencia{
 
     justify-content: space-around;    
     margin-top: 20px;
@@ -113,10 +129,10 @@ img{
 }
 
 
-.informações h2{
-    font-family: Pacifico;
+.informações h2, .transparencia h2{
+    font-family: Oswald;
         
-    color: #c4a47c;
+    color: #df251a;
     font-size: 30px;
 }
 
@@ -127,9 +143,24 @@ img{
     text-align: center;
     line-height: 30px;
     font-size: 15px;
- 
+}
 
+.transparencia h3{
 
+    width: 70vw;
+    font-family: Lato;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+
+    width: 360px;
+    
+    text-align: center;
+    background-color: #DC0000;
+    color: #FFF6C3;
+    border-radius: 12px;
+    padding: 12px; 
+    
 }
 
 .subBanner{
@@ -246,7 +277,7 @@ img{
 
 .meuNome{
 color: #c4a47c;
-font-size: medium;
+font-size: 11px;
 font-family: Lato; 
 font-style: bold;
 }
